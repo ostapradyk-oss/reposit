@@ -1,26 +1,74 @@
 # Example 1
 
 
-class Human:
-    height=170
-    satiety=50
-
-class Student(Human):
-    satiety=0
-
-
-class Worker(Human):
-    satiety=100
-
-Ostap=Student()
-Viktor=Worker()
-print(Ostap.satiety)
-print(Viktor.satiety)
-print(Ostap.height)
-print(Viktor.height)
+# class Human:
+#     height=170
+#     satiety=50
+#
+# class Student(Human):
+#     satiety=0
+#
+#
+# class Worker(Human):
+#     satiety=100
+#
+# Ostap=Student()
+# Viktor=Worker()
+# print(Ostap.satiety)
+# print(Viktor.satiety)
+# print(Ostap.height)
+# print(Viktor.height)
 
 
 # Example 2
+
+# class Didus:
+#     height=190
+#     satiety=100
+#     age=60
+# class Batko(Didus):
+#     age=40
+# class Child(Batko):
+#     height=50
+#
+#     def __init__(self):
+#         print(self.height)
+#         print(self.satiety)
+#         print(self.age)
+
+
+# Example 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
