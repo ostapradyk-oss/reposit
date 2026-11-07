@@ -40,38 +40,60 @@
 # Example 3
 
 
-class Hello_World:
-    hello='hello'
-    _hello='_hello'
-    __hello='__hello'
+# class Hello_World:
+#     hello='hello'
+#     _hello='_hello'
+#     __hello='__hello'
+#
+#     def __init__(self):
+#         self.world='World'
+#         self._world='_World'
+#         self.__world=('__World')
+#
+#     def printer(self):
+#         print(self.hello)
+#         print(self._hello)
+#         print(self.__hello)
+#         print(self.world)
+#         print(self._world)
+#         print(self.__world)
+#
+#
+# class hi(Hello_World):
+#     def hiprint(self):
+#         print(self.hello)
+#         print(self._hello)
+#         print(self.__hello)
+#         print(self.world)
+#         print(self._world)
+#         print(self.__world)
+#
+# helloworld=Hello_World()
+# hi=hi()
+# Hello_World.printer()
+# hi.hiprint()
 
-    def __init__(self):
-        self.world='World'
-        self._world='_World'
-        self.__world=('__World')
-
-    def printer(self):
-        print(self.hello)
-        print(self._hello)
-        print(self.__hello)
-        print(self.world)
-        print(self._world)
-        print(self.__world)
 
 
-class hi(Hello_World):
-    def hiprint(self):
-        print(self.hello)
-        print(self._hello)
-        print(self.__hello)
-        print(self.world)
-        print(self._world)
-        print(self.__world)
 
-helloworld=Hello_World()
-hi=hi()
-Hello_World.printer()
-hi.hiprint()
+# Example 4
+
+
+class Compute:
+    def calculate(self):
+        print('calculating... idk bru')
+
+class Display:
+    def display(self):
+        print('I display the display on the display')
+
+
+class Smartphone(Display, Compute):
+    pass
+
+phone=Smartphone()
+phone.display()
+phone.calculate()
 
 
 
